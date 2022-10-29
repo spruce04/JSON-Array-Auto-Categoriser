@@ -7,7 +7,7 @@ This program is my first attempt at using node-JS, working with JSON, and using 
 ## How to run the project
 1. Clone the repository ```git clone https://github.com/spruce04/JSON-AutoArray-Categoriser.git```.
 2. Add a data file to the *JSONData* folder, or use the sample data.
-3. Change the *dataPath* and/or the *resultsPath* variable in **./dataPath.js** to represent the new path to the data and output location.
+3. Change the *dataPath* and/or the *resultsPath* variable in **.paths.js** to represent the new path to the data and output location.
 4. Move to the src directory ```cd src```.
 5. Run the program ```node index.js```.
 6. Move to the tmp directory (or wherever the data is being outputted) and open the **results.txt** file (or whichever file you have redirected the output to) to view the categorised data.
